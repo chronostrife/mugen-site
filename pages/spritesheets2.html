@@ -1,0 +1,203 @@
+<?php 
+//Character Name, Source, SpriteSheet, SpritePreview, ALT-Text,
+$character = array(
+"Android 18", "BuYuu Restudan", "images/sheets/SheetBYR1801.gif", "images/sprites/Sprite1801.gif", "BYR 18 Edit",
+"Android 18", "Super Butouden 3", "images/sheets/SheetAndroid1802.gif", "images/sprites/SpriteAndroid1801.gif", "SB3 18 Edit",
+"Gohan", "Super Butouden 3", "images/sheets/SheetAGohan01.gif", "images/sprites/SpriteAGohan01.gif", "SB3 Gohan",
+"Kaioshin", "Super Butouden 3", "images/sheets/SheetSupremeKai01.gif", "images/sprites/SpriteSupremeKai01.gif", "SB3 Kaioshin",
+"Krillin", "BuYuu Restudan", "images/sheets/SheetBYRKrillin01.gif", "images/sprites/SpriteKrillin05.gif", "BYR Cell Saga Krillin",
+"Krillin", "BuYuu Restudan", "images/sheets/SheetBYRKrillin02.gif", "images/sprites/SpriteKrillin06.gif", "BYR Buu Saga Krillin",
+"Krillin", "BuYuu Restudan", "images/sheets/SheetSBKrillin_SS02.gif", "images/anim/AnimKrillin_SS02.gif", "SB Saiyan Saga Krillin",
+"Krillin", "BuYuu Restudan", "images/sheets/SheetSBKrillin03.gif", "images/sprites/SpriteKrillin05.gif", "SB Cell Saga Krillin",
+"Krillin", "BuYuu Restudan", "images/sheets/SheetSBKrillin_BS1.gif", "images/sprites/SpriteKrillin08.gif", "SB Buu Saga Krillin",
+); 
+
+if(is_null($page) || empty($_GET['page'])) {
+    $page = "news"; 
+}
+
+if( in_array($page, $pages) )
+{
+	include("pages/".$page.".html");
+}
+else
+{
+	include("pages/404.html");
+} 
+
+echo '</div>';
+
+include('pages/footer.html'); ?>
+
+
+<div id="spritesheets" style="position:relative; width:640px; height:500px; overflow:auto; border:2px solid #CCCCDD;">
+	<table width="100%" border="0" bordercolor="#ccccdd" cellspacing="0" cellpadding="0" valign="top">
+		<tr><td height="16" valign="top" class="title"><p id="title-border"><font face="arial" color="#ddddee" size="2"><b>Sprite Sheets</b></font></p></td></tr>
+		<tr><td valign="top"> <font face="verdana" color="#ccccdd" size="1.5">
+		<br/>
+
+		<a href="images/sheets/SheetBYR1801.gif" target="_blank"><img border="0" src="images/sprites/Sprite1801.gif" alt="BYR 18 Edit"></a>
+		<a href="images/sheets/SheetAndroid1802.gif" target="_blank"><img border="0" src="images/sprites/SpriteAndroid1801.gif" alt="SB3 18 Edit"></a></br>
+		Name: Android 18(BYR)</br>
+		Ripped from: BuYuu Retsuden | Super Butouden 3</br>
+		</br>
+		</br>
+
+		<a href="images/sheets/SheetBYRKrillin01.gif" target="_blank"><img border="0" src="images/sprites/SpriteKrillin05.gif" alt="BYR Cell Saga Krillin"></a>
+		<a href="images/sheets/SheetBYRKrillin02.gif" target="_blank"><img border="0" src="images/sprites/SpriteKrillin06.gif" alt="BYR Buu Saga Krillin"></a>
+		<a href="images/sheets/SheetSBKrillin03.gif" target="_blank"><img border="0" src="images/sprites/KrillinBald-Strife1.gif" alt="SB-Style Cell Saga Krillin"></a>
+		<a href="images/sheets/SheetSBKrillin_BS1.gif" target="_blank"><img border="0" src="images/sprites/SpriteKrillin08.gif" alt="SB-Style Buu Saga Krillin"></a></br>
+		Name: Krillin</br>
+		Ripped from: BuYuu Retsuden</br>
+		Ripped by: Neocide</br>
+		Edited by: Chrono_Strife and Neocide</br>
+		</br>
+		</br>
+
+		<a href="images/sheets/SheetBojack01.gif" target="_blank"><img border="0" src="images/sprites/SpriteBojack01.gif" alt="SB2 Bojack"></a>
+		<a href="images/sheets/SheetBojack02.gif" target="_blank"><img border="0" src="images/sprites/SpriteBojack02.gif" alt="Old Bojack Edit"></a>
+		<a href="images/sheets/SheetBojack05.gif" target="_blank"><img border="0" src="images/sprites/SpriteBojack03.gif" alt="Bojack 2.0 Edit"></a></br>
+		Name: Bojack</br>
+		Ripped from: Super Butouden 2</br>
+		Ripped by: Chrono_Strife</br>
+		Edited by: Chrono_Strife</br>
+		</br>
+		</br>
+
+		<a href="images/sheets/SheetGoten01.gif" target="_blank"><img border="0" src="images/sprites/SpriteGoten01.gif" alt="Goten"></a></br>
+		Name: Goten</br>
+		Ripped from: Super Butouden 3</br>
+		Ripped by: Neocide</br>
+		Edited by: Chrono_Strife and Neocide</br>
+		</br>
+		</br>
+
+		<a href="images/sheets/SheetPuar01.gif" target="_blank"><img border="0" src="images/sprites/SpritePuar02.gif" alt="Puar"></a></br>
+		Name: Puar</br>
+		Ripped from: ----</br>
+		Ripped by: ----</br>
+		Created by: Chrono_Strife</br>
+		</br>
+		</br>
+
+		<a href="images/sheets/SheetYamcha04.gif" target="_blank"><img border="0" src="images/sprites/SpriteYamcha04.gif" alt="Android Saga Yamcha"></a>
+		<a href="images/sheets/SheetYamcha06.gif" target="_blank"><img border="0" src="images/sprites/SpriteYamcha05.gif" alt="Saiyan Saga Yamcha"></a></br>
+		Name: Yamcha</br>
+		Ripped from: Super Butouden 3</br>
+		Ripped by: Chrono_Strife</br>
+		Edited by: Chrono_Strife</br>
+		</br>
+		</br>
+
+		<a href="images/sheets/SheetGarlicJr06.gif" target="_blank"><img border="0" src="images/anim/AnimGarlicJr04.gif" alt="Garlic Jr 1.0 Edit"></a>
+		<a href="images/sheets/SheetGarlicJr09.gif" target="_blank"><img border="0" src="images/anim/AnimGarlicJr06.gif" alt="Garlic Jr 1.5 Edit"></a>
+		</br>
+		Name: Garlic Jr</br>
+		Ripped from: Super Butouden 2/3</br>
+		Ripped by: Chrono_Strife</br>
+		Edited by: Chrono_Strife</br>
+		</br>
+		</br>
+
+		<a href="images/sheets/SheetFTrunks01.gif" target="_blank"><img border="0" src="images/sprites/SpriteFTrunks01.gif" alt="SB2/3 18 Trunks Jacket Edit"></a>
+		<a href="images/sheets/SheetFTrunksMov901.gif" target="_blank"><img border="0" src="images/sprites/SpriteFTrunksMov901.gif" alt="SB2/3 18 Trunks Movie9 Edit"></a></br>
+		Name: Future Trunks</br>
+		Ripped from: Super Butouden 2/3 and BuYuu Retsuden</br>
+		Ripped by: Chrono_Strife</br>
+		Edited by: Chrono_Strife</br>
+		</br>
+		</br>
+
+		<a href="images/sheets/SheetRecoome02.gif" target="_blank"><img border="0" src="images/anim/AnimRecoome02.gif" alt="Recoome BYR Edit"></a>
+		</br>
+		Name: Recoome</br>
+		Ripped from: BuYuu Retsuden</br>
+		Ripped by: Chrono_Strife</br>
+		Edited by: Chrono_Strife</br>
+		</br>
+		</br>
+
+		<a href="images/sheets/SheetICell03.gif" target="_blank"><img border="0" src="images/anim/AnimICell01.gif" alt="SB1 Cell Edit"></a></br>
+		Name: Insect Cell</br>
+		Ripped from: Super Butouden 1</br>
+		Ripped by: Chrono_Strife</br>
+		Edited by: Chrono_Strife</br>
+		</br>
+		</br>
+
+		<a href="images/sheets/SheetPerfectCell01.gif" target="_blank"><img border="0" src="images/anim/AnimPCell01.gif" alt="SB2 Cell Edit"></a></br>
+		Name: Perfect Cell</br>
+		Ripped from: Super Butouden 1/2, Hyper Dimension, Arcade</br>
+		Ripped by: Neocide, Chrono_Strife</br>
+		Edited by: Chrono_Strife, Neocide, New Age Azrael</br>
+		</br>
+		</br>
+
+		<a href="images/sheets/SheetNappa07.gif" target="_blank"><img border="0" src="images/anim/AnimNappaSword1.gif" alt="Nappa"></a></br>
+		Name: Nappa (sword not included)</br>
+		Ripped from: BuYuu Retsudan</br>
+		Ripped by: Chrono_Strife</br>
+		Edited by: Chrono_Strife</br>
+		</br>
+		</br>
+
+		<a href="images/sheets/SheetZangya03.gif" target="_blank"><img border="0" src="images/sprites/SpriteZangya02.gif" alr="Zangya Edit"></a></br>
+		Name: Zangya</br>
+		Ripped from: Super Butouden 2</br>
+		Ripped by: Chrono_Strife</br>
+		Edited by: Chrono_Strife</br>
+		</br>
+		</br>
+
+		<a href="images/sheets/SheetSpiderManMC01.gif" target="_blank"><img border="0" src="images/sprites/SpriteSpiderMan01.gif" alt="SpiderMan"></a></br>
+		Name: SpiderMan</br>
+		Ripped from: Maximum Carnage</br>
+		Ripped by: Chrono_Strife</br>
+		Edited by: Chrono_Strife</br>
+		</br>
+		</br>
+
+		<a href="images/sheets/SheetMars03.gif" target="_blank"><img border="0" src="images/sprites/SpriteMars01.gif" alt="Sailor Mars Edit"></a></br>
+		Name: Sailor Mars</br>
+		Ripped from: Pretty Soldier Sailor Moon 4(Including some modified sprites from PSSM 1,2, and 3)</br>
+		Ripped by: Chrono_Strife</br>
+		Edited by: Chrono_Strife</br>
+		</br>
+		</br>
+
+		<a href="images/sheets/SheetCloud04.gif" target="_blank"><img border="0" src="images/anim/AnimCloud06.gif" alt="Cloud Strife"></a>
+		</br>
+		Name: Cloud Strife 2.0</br>
+		Ripped from: Super Butouden 3</br>
+		Ripped by: Chrono_Strife</br>
+		Edited by: Chrono_Strife</br>
+		</br>
+		<a href="images/sheets/SheetBusterSword02.gif" target="_blank"><font color="#8888cc" target="_blank"><I>View: Buster Sword Sheet</I></font></a>
+		</br>
+		</br>
+
+		<a href="images/sheets/SheetMegaMan901.gif" target="_blank"><img border="0" src="images/sprites/SpriteMegaMan01.gif" alt="MegaMan"></a></br>
+		Name: Megaman</br>
+		Ripped from: Rockman and Bass</br>
+		Ripped by: Chrono_Strife</br>
+		Edited by: ----</br>
+		</br>
+		</br>
+
+		<a href="images/sheets/SheetKagome01.gif" target="_blank"><img border="0" src="images/anim/AnimKagome01.gif" alt="Kagome"></a></br>
+		Name: Kagome</br>
+		Ripped from: Inuyasha - A Feudal Fairy Tale</br>
+		Ripped by: Chrono_Strife</br>
+		Edited by: ----</br>
+		</br>
+		</br>
+
+		</td>
+		</tr>
+		<tr><td style="text-align:center;">
+				<a href="JavaScript:history.back(1)"><img class="border1" src="images/site/buttons/nav-back1.png" width="90px" height="27px" hspace="1px" alt="Back"/></a>
+		</td></tr>
+    </table>
+</div><!-- end #spritesheets -->
+
+

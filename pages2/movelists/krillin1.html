@@ -1,0 +1,793 @@
+<link rel="shortcut icon" href="pages/movelists/files/chars/krillin_cstrife/favicon.gif" type="image/vnd.microsoft.icon" /> 
+<link rel="icon" href="pages/movelists/files/chars/krillin_cstrife/favicon.gif" type="image/vnd.microsoft.icon" /> 
+<style type="text/css">
+    .body { 
+		background-color: #000000;
+	}
+	img.border1 { 
+		border-width: 1px; border-style:solid; border-color:#CCCCDD;
+	}
+	p.basic_text {
+		font-family: Verdana,Geneva,sans-serif; 
+		font-size: 9px; 
+		font-style: normal; 
+		font-variant: normal; 
+		font-weight: normal; 
+		line-height: 9px;
+		color: #ccccdd;
+	}
+	.stat_style_text {
+		font-family: Verdana,Geneva,sans-serif; 
+		font-size: 16px; 
+		font-style: normal; 
+		font-variant: normal; 
+		font-weight: bold; 
+		line-height: 20px;
+		color: #cccccc;
+		text-shadow:1px 1px 0 #444444,
+		-1px -1px 0 #444444,
+		1px -1px 0 #444444,
+		-1px 1px 0 #444444,
+		0px 1px 0 #444444,
+		1px 0px 0 #444444,
+		0px -1px 0 #444444,
+		-1px 0px 0 #444444;
+	}
+	.movelist_table {
+		position:relative; 
+		margin-left: auto; 
+		margin-right: auto;
+		width:540px;
+		border-collapse: collapse;
+	}
+	.movelist_preview {
+		text-align: center;
+		width: 133px;
+		border: 1px solid white;
+	}
+	.movelist_name {
+		text-align: center;
+		width: 380px;
+		height: 24px;
+	    border: 1px solid white;
+	}
+    .movelist_power_indicator {
+		text-align: center;
+		width: 20px;
+		height: 24px;
+	    border: 1px solid white;
+	}
+	.movelist_command {
+		text-align: left;
+		width: 400px;
+		border: 1px solid white;
+	}
+	.movelist_type {
+		text-align: center;
+	    border: 1px solid white;
+	}
+   .movelist_info {
+		text-align: left;
+	    border: 1px solid white;
+	}
+	p.movelist_header {
+		font-family: Verdana,Geneva,sans-serif; 
+		font-size: 14px; 
+		font-style: normal; 
+		font-variant: normal; 
+		font-weight: bold; 
+		line-height: 20px;
+		color: #ccccdd;
+		text-shadow:1px 1px 0 #440088,
+		-1px -1px 0 #440088,
+		1px -1px 0 #440088,
+		-1px 1px 0 #440088,
+		0px 1px 0 #440088,
+		1px 0px 0 #440088,
+		0px -1px 0 #440088,
+		-1px 0px 0 #440088;
+	}
+	p.movelist_info_text {
+		font-family: Verdana,Geneva,sans-serif; 
+		font-size: 9px; 
+		font-style: normal; 
+		font-variant: normal; 
+		font-weight: normal; 
+		line-height: 10px;
+		color: #ccccdd;
+	}
+</style>
+<div id="char-Krillin" style="position:relative; margin-left: auto; margin-right: auto; width:640px; height:99%; overflow:auto; overflow-x:hidden; border:2px solid #CCCCDD; background-color: #000000;">
+	<table width="640px" border="0" bordercolor="#ccccdd" cellspacing="0" cellpadding="0" valign="top">
+		<tr><td height="16"  valign="top" class="title"><p id="title-border"><font face="arial" color="#ddddee" size="2"><b>Krillin 1.0 Movelist and Info</b></font></p></td></tr>
+			<tr><td valign="top" style="text-align:center; padding-right:20px;"> <font face="verdana" color="#ccccdd" size="1.5">
+			<h3>Krillin</h3>
+			<img align="center" src="pages/movelists/files/chars/krillin_cstrife/portrait.gif" width="120" height="140">
+			<br/>
+			Version: 1.0<br/>
+			Mugen Version: 1.1b
+			Created by: Chrono_Strife<br/>
+			<font size=1.5>
+			This character's Programming and Sprites are Open Source.<br/>
+			Contact: chronostrifeff7h@hotmail.com<br/>
+			Website: <a href="http://chronostrife.herobo.com" target="_blank">http://chronostrife.herobo.com</a><br/>
+			Facebook: <a href="http://www.facebook.com/chrono.strife.7" target="_blank">http://www.facebook.com/chrono.strife.7</a><br/>
+			<br/>
+			</font>
+			<img src="pages/movelists/files/news-border-image.png" class="border1" width="100%" height="8px">
+			<br/>
+			<h4>Contents:</h4>
+			::<a href="#C1">Character Information</a>::<br/>
+			::<a href="#C1-Stat">Stats and Abilities</a>::<br/>
+			::<a href="#C2">Updates and Fixes</a>::<br/>
+			::<a href="#C3">Pallete Options</a>::<br/>
+			::<a href="#C4">Command List</a>::<br/>
+			::<a href="#C5">Credits and Shouts</a>::<br/>
+			<br/>
+			<img src="pages/movelists/files/news-border-image.png" class="border1" width="360px" height="8px">
+			<br/>
+			<h4><a name="C1">Character Information:</a></h4>
+			<table border="0" align="center">
+			<tr>
+				<td width = "86"><img src="pages/movelists/files/chars/krillin_cstrife/pic1.png" width="86" height="172"></td>
+				<td width = "454"> <font face="verdana" color="#ccccdd"  size=1.5>
+				Krillin(Kuririn) is Goku's childhood friend and one of the most loyal and dependable fighters for Earth. Despite having nearly every bone in his body broken, being killed by demons, Freeza, and Buu and being outclassed in battle power throughout all of DBZ, he still lends his efforts willingly to protect the peace and proves himself as one of the strongest humans on Earth.
+				<br/><br/>
+				During the Android and Cell sagas Krillin lends aids the rest of the team in hunting and challenging the androids, though he is the only Z-Fighter who questions their motives. He learns that aside from their hard coded desire to fight Goku, they lack the evil the prophesied androids were described as having. As a result, he works to help both the androids and Z-Fighters in their battles against Cell. He would eventually marry and start a family with Android 18.
+				<br/><br/>
+				Krillin's specialty is his ability to manage and control his Ki for unique and effective attacks. Despite always trailing behind the saiyans and Piccolo in terms of raw power, he continues to surprise both his allies and enemies with unique skills. Using controllable Ki Attacks, Ki Discs capable of cutting through anything(besides Perfect Cell), and concetrating multiple Ki sources into one and splitting them apart again. All of his attacks are very powerful but they suffer from massive weaknesses as well, such as being slow or easily dodged.
+				</td>
+			</tr>
+			</table>
+			<img src="pages/movelists/files/news-border-image.png" class="border1" width="360px" height="8px">
+			<br/><br/>
+			<div id="mugenchar-info" style="margin-left: auto; margin-right: auto; width:540px;" align="left">
+			Krillin by Chrono_Strife is designed for MUGEN 1.1. Due to the nature of the code in the AIR and CNS as well as some of the contents of the SFF, I cannot guarantee this character will work in older versions of MUGEN.
+			<br/><br/>
+			Voice Options: This character include both English(default) voice acting by Sonny Strait and Japanese voice acting by Mayumi Tanaka.<br/>
+			Enable Japanese VA by pointing to "Krillin_CStrife/Krillin_Jp_CStrife.def" instead of the "Krillin_CStrife" in your MUGENs select.def. Or you can simply comment out the "sound" reference to the "*Eng*.SND" and removing the comment on the *Jpn*.SND in this characters default .DEF.
+			<br/>
+			<div align="center"><img src="pages/movelists/files/chars/krillin_cstrife/prev1.png" width="216px" height="138px"></div>
+			<br/>
+			This character was mostly completed in 2010, I failed to release him publicly simply due to lack of unique intro/win poses for each of his costumes. I revisited him on occasion to test out some FX and programming ideas as I worked on 16 and Garlic Jr, and finally decided to finish him in mid-2015. The original SB style Cell Saga Sheet was converted from BuYuu Retsudan Krillin by Neocide in the early 2000's, then further updated and converted to both Buu Saga(2003) and Saiyan Saga(2011) by Chrono_Strife. This character will likely have the SSF split into 3 in a later update and the user can pick which version they'd want in their Mugen.
+            <br/><br/>
+			Krillin is intended to be a balanced fighter uses a mix of melee and ki attacks to defeat his enemies. His unique trait is Ki Control, many of his ki attacks are either aimed/aimable, homing, or piercing attacks. Since he is also a martial artist he needed an emphasis in melee style attacks as well. Krillins reach is poor due to his size, however he has a variety of basics and specials that chain into one another which deal decent damage, generate some power, and create distance between him and his opponent so he can follow-up with one of his speciality ki based supers.
+			<br/>
+			</div>
+			<br/><br/>
+			<img src="pages/movelists/files/news-border-image.png" class="border1" width="360px" height="8px">
+			<br/>
+			<h4><a name="C1-Stat">Stats and Abilities:</a></h4>
+			<table border="0" align="center">
+			<tr>
+				<td width = "150"> <font face="verdana" color="#ccccdd" size=2.0>
+				<img src="pages/movelists/files/stats/str.gif"/></br>
+				<img src="pages/movelists/files/stats/pwr.gif"/></br>
+				<img src="pages/movelists/files/stats/efn.gif"/></br>
+				<img src="pages/movelists/files/stats/spd.gif"/></br>
+				<img src="pages/movelists/files/stats/tch.gif"/></br>
+				<img src="pages/movelists/files/stats/stl.gif"/></br>
+				</td>
+				<td width = "250"> <font face="verdana" color="#ccccdd" size=2.0>
+				<img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"></br>
+				<img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"></br>
+				<img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"></br>
+				<img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"></br>
+				<img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"></br>
+				<font class="stat_style_text">Balanced Fighter</font> <img src="pages/movelists/files/stats/blank.gif"></br>
+				</td>
+				</tr>
+				<tr>
+				<td width = "100"> <font face="verdana" color="#ccccdd"  size=1.5>
+				</br>
+				</td>
+				</tr>
+				<tr>
+				<td width = "100"> <font face="verdana" color="#ccccdd"  size=1.5>
+				Strength:</br>
+				Power:</br>
+				Efficiency:</br>
+				Speed:</br>
+				Technique:</br>
+				Style:</br>
+				</td>
+				<td width = "300"> <font face="verdana" color="#ccccdd"  size=1.5>
+				Average Physical Damage.</br>
+				Average Energy Damage.</br>
+				Represents Energy Consumption vs Damage.</br>
+				Movement and Attack Speed.</br>
+				Number of special abilities and combos.</br>
+				Fighting style character specializes in.</br>
+				</td>
+				</tr>
+				</table>
+				</br>
+				<i>All Stats relative to characters programmed by Chrono_Strife.</i></br>
+				<i>Each character uses a 20 point system.</i>
+				<br><br>
+			<img src="pages/movelists/files/news-border-image.png" class="border1" width="360px" height="8px">
+			<br/>
+			<h4><a name="C2">Updates and Fixes:</a></h4>
+			<table border="0" align="center">
+			<tr>
+			<td width = "540"> <font face="verdana" color="#ccccdd" size=1.5>
+			<b>June 30, 2015: Krillin 1.0 Released.</b><br>
+			=<b><i>General Changes:</i></b></br>
+			--Updated for Mugen 1.1!</br>
+			--Update: A few new sprites.</br>
+			--Update: New intros and Win Poses.</br>
+			--Update: Android 18.</br>
+			--Update: Added some new sounds.</br>
+			--Changed: General FX changes.</br>
+			--Changed: General Code fixes.</br>
+			--Changed: Updated to meet some of my recent StDef -3 standards.</br>
+			=<b><i>Ability Changes:</i></b></br>
+			--Added: Scatter Shot Retreat.</br>
+			--Added: Orin Combo upward kick.</br>
+			--Added: Orin Combo overhead smash.</br>
+			--Added: Destructo Disc Chain to follow Throw.</br>
+			--Added: Flying Fierce Kick Chain. (Orin Repeater finish)</br>
+			--Changed: Quad Kick/Bicycle Kick to Orin Combo(added an up velocity and final kick) </br>
+			--Changed: Basic Ki Shots- New graphics, removed random trajectory.</br>
+			--Changed: Teleport Attack commands to the new format.</br>
+			--Changed: Destructo Disc trajectories for 1.1 zoom.</br>
+			--Changed: Recovery commands.</br>
+			--Removed: Dynamic Pursuit System test.</br>
+			--Removed: Parry/Deflect (will come up with something a bit nicer).</br>
+			</br>
+			</td>
+			</tr>
+			<tr>
+			<td width = "540"> <font face="verdana" color="#ccccdd" size=1.5>
+			<b>March 2010?: Version 0.9 (Private Beta)</b></br>
+			=<b><i>Additions:</i></b></br>
+			--Everything.</br>
+			</td>
+			</tr>
+			</table>
+			</br>
+			<img src="pages/movelists/files/news-border-image.png" class="border1" width="360px" height="8px">
+			<br/>
+			<h4><a name="C3">Pallette Options:</a></h4>
+			<img src="pages/movelists/files/chars/krillin_cstrife/pal1.gif" width="25" height="65" alt="A">
+			<img src="pages/movelists/files/chars/krillin_cstrife/pal2.gif" width="25" height="65" alt="B">
+			<img src="pages/movelists/files/chars/krillin_cstrife/pal3.gif" width="25" height="65" alt="C">
+			<img src="pages/movelists/files/chars/krillin_cstrife/pal4.gif" width="25" height="65" alt="X">
+			<img src="pages/movelists/files/chars/krillin_cstrife/pal5.gif" width="25" height="65" alt="Y">
+			<img src="pages/movelists/files/chars/krillin_cstrife/pal6.gif" width="25" height="65" alt="Z">
+			<br/>
+			<img src="pages/movelists/files/chars/krillin_cstrife/pal7.gif" width="25" height="69" alt="Start+A">
+			<img src="pages/movelists/files/chars/krillin_cstrife/pal8.gif" width="25" height="69" alt="Start+B">
+			<img src="pages/movelists/files/chars/krillin_cstrife/pal9.gif" width="25" height="69" alt="Start+C">
+			<img src="pages/movelists/files/chars/krillin_cstrife/pal10.gif" width="30" height="69" alt="Start+X">
+			<img src="pages/movelists/files/chars/krillin_cstrife/pal11.gif" width="30" height="69" alt="Start+Y">
+			<img src="pages/movelists/files/chars/krillin_cstrife/pal12.gif" width="30" height="69" alt="Start+Z">
+			<br>
+			In Order: A,B,C,X,Y,Z,S+A,S+B,ETC
+			<br>
+
+			<br/></br>
+			<img src="pages/movelists/files/news-border-image.png" class="border1" width="360px" height="8px">
+			<br/>
+<h4><a name="C4">Command List:</a></h4>
+<font face="verdana" color="#ccccdd" size=1.5>
+<h4>Basics/Button Key:</h4>
+<table style = "position:relative; margin-left: auto; margin-right: auto;width:600px; border-collapse: collapse;">
+	<tbody>
+		<tr>
+			<td style="text-align: center; width: 30px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></br><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td style="text-align: center; width: 120px; border: 1px solid white;"><p class="movelist_header">Weak Punch</p></td>
+			<td style="text-align: center; width: 31px; border: 1px solid white;"><img src="pages/movelists/files/buttons/x.gif" width="29" height="29"></td>
+			<td/>
+			<td style="text-align: center; width: 30px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></br><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td style="text-align: center; width: 120px; border: 1px solid white;"><p class="movelist_header">Medium Punch</p></td>
+			<td style="text-align: center; width: 31px; border: 1px solid white;"><img src="pages/movelists/files/buttons/y.gif" width="29" height="29"></td>
+			<td/>
+			<td style="text-align: center; width: 30px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></br><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td style="text-align: center; width: 120px; border: 1px solid white;"><p class="movelist_header">Strong Punch</p></td>
+			<td style="text-align: center; width: 31px; border: 1px solid white;"><img src="pages/movelists/files/buttons/z.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+			<td style="text-align: center; width: 30px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></br><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td style="text-align: center; width: 120px; border: 1px solid white;"><p class="movelist_header">Weak Kick</p></td>
+			<td style="text-align: center; width: 31px; border: 1px solid white;"><img src="pages/movelists/files/buttons/a.gif" width="29" height="29"></td>
+			<td/>
+			<td style="text-align: center; width: 30px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></br><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td style="text-align: center; width: 120px; border: 1px solid white;"><p class="movelist_header">Medium Kick</p></td>
+			<td style="text-align: center; width: 31px; border: 1px solid white;"><img src="pages/movelists/files/buttons/b.gif" width="29" height="29"></td>
+			<td/>
+			<td style="text-align: center; width: 30px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></br><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td style="text-align: center; width: 120px; border: 1px solid white;"><p class="movelist_header">Strong Kick</p></td>
+			<td style="text-align: center; width: 31px; border: 1px solid white;"><img src="pages/movelists/files/buttons/c.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+			<td style="text-align: center; width: 30px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></br><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td style="text-align: center; width: 120px; border: 1px solid white;"><p class="movelist_header">Any Punch</p></td>
+			<td style="text-align: center; width: 31px; border: 1px solid white;"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>
+			<td/>
+			<td style="text-align: center; width: 30px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></br><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td style="text-align: center; width: 120px; border: 1px solid white;"><p class="movelist_header">Any Kick</p></td>
+			<td style="text-align: center; width: 31px; border: 1px solid white;"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"></td>
+			<td/>
+			<td style="text-align: center; width: 30px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></br><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td style="text-align: center; width: 120px; border: 1px solid white;"><p class="movelist_header">Taunt</p></td>
+			<td style="text-align: center; width: 31px; border: 1px solid white;"><img src="pages/movelists/files/buttons/s.gif" width="29" height="29"></td>
+		</tr>
+	</tbody>
+</table>
+<br/>
+<table style = "position:relative; margin-left: auto; margin-right: auto;width:600px; border-collapse: collapse;">
+	<tbody>
+		<tr>
+			<td/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Stand:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Crouch:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Air:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Flying:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/flight.png" width="15" height="15"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Dash:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/dash.png" width="15" height="15"></td>
+			<td/>
+		</tr>
+		<tr>
+			<td/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Block:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/block.png" width="15" height="15"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Chain:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/chain.png" width="15" height="15"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Hit:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/hit.png" width="15" height="15"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Fall:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/fall.png" width="15" height="15"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Downed:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/liedown.png" width="15" height="15"></td>
+			<td/>
+		</tr>
+		
+	</tbody>
+</table>
+</br>
+<table style = "position:relative; margin-left: auto; margin-right: auto;width:600px; border-collapse: collapse;">
+	<tbody>
+		<tr>
+			<td/>
+			<td style="text-align: right; width: 80px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Consumes power:</p></td>
+			<td style="text-align: center; width: 24px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/scouter.png" width="24" height="18"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 80px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Power level 1000:</p></td>
+			<td style="text-align: center; width: 24px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/scouter_lvl1.png" width="24" height="18"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 80px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Power level 2000:</p></td>
+			<td style="text-align: center; width: 24px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/scouter_lvl2.png" width="24" height="18"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 80px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Power level 3000:</p></td>
+			<td style="text-align: center; width: 24px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/scouter_lvl3.png" width="24" height="18"></td>
+			<td/>
+		</tr>
+		
+	</tbody>
+</table>
+
+<br/>
+<br>
+<h4>Additional Basics:</h4>
+<font face="verdana" color="#ccccdd"  size=1.5>
+
+<table class = "movelist_table">
+	<tbody>
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/dashu1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Dash/Air Dash</p></td>
+			<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter.png"></td>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"> -or-
+			<img src="pages/movelists/files/buttons/le.gif" width="29" height="29"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"> -or-
+			<img src="pages/movelists/files/buttons/up.gif" width="29" height="29"><img src="pages/movelists/files/buttons/up.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+		    <td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Holding down the direction button will force the dash to last longer. Consecutive <b>Air Dashes</b> will consume power over time.</p></td>
+		</tr>
+		
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/superjump1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Super Jump</p></td>
+			<td class = "movelist_power_indicator"/>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/up.gif" width="29" height="29"> -or- 
+			<img src="pages/movelists/files/buttons/up.gif" width="29" height="29"><img src="pages/movelists/files/buttons/plus.png"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"> -or- 
+			<img src="pages/movelists/files/buttons/up.gif" width="29" height="29"><img src="pages/movelists/files/buttons/plus.png"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+		    <td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/chain.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Jump from a Crouched state. Leap greater distances and perform longer aerial combos. Can be chain into from <b>Launcher</b>.</p></td>
+		</tr>
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/powerup1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Power Up</p></td>
+			<td class = "movelist_power_indicator"/>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/b.gif" width="29" height="29"> <img src="pages/movelists/files/buttons/plus.png"> <img src="pages/movelists/files/buttons/y.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+		    <td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Generates power over time.</p></td>
+		</tr>
+	  
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/zanzoken1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Zanzoken</p></td>
+			<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter.png"></td>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/a.gif" width="29" height="29"> <img src="pages/movelists/files/buttons/plus.png"> <img src="pages/movelists/files/buttons/x.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+			<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/dash.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Can only be performed while Dashing and Air Dashing.</br>Used to create or close gaps as well as dodge powerful attacks.</p></td>
+		</tr>
+	  
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/advance_guard1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Advance Guard</p></td>
+			<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter.png"></td>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"> <img src="pages/movelists/files/buttons/plus.png"> <img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+			<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/block.png" width="15" height="15"><br/><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Can only be used while block an attack.<br/>Knocks the opponent far away.</p></td>
+		</tr>
+		
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/recover1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Recovery Flip</p></td>
+			<td class = "movelist_power_indicator"/>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"> <img src="pages/movelists/files/buttons/plus.png"> <img src="pages/movelists/files/buttons/p.gif" width="29" height="29"> -or- <img src="pages/movelists/files/buttons/k.gif" width="29" height="29"> <img src="pages/movelists/files/buttons/plus.png"> <img src="pages/movelists/files/buttons/k.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+			<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/fall.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Use to land from falls that are recoverable.</td>
+		</tr>
+		
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/ldrecover1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Scatter Shot Retreat</p></td>
+			<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter.png"></td>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"> <img src="pages/movelists/files/buttons/plus.png"> <img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+			<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/liedown.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Leap backwards from lying on the ground and release a volley of weak energy blasts.</td>
+		</tr>
+		
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/launcher1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Launcher</p></td>
+			<td class = "movelist_power_indicator"/>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"> <img src="pages/movelists/files/buttons/plus.png"> <img src="pages/movelists/files/buttons/k.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+			<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Launches the opponent airborne. Can be follow-ed up with a super jump, air-combos, or <b>Intantaneous Chains</b>.</p></td>
+		</tr>
+		
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/telekick1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Instantaneous Chain Combo</p></td>
+			<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter.png"></td>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/chain_arrow.png" width="29" height="29"><img src="pages/movelists/files/buttons/a.gif" width="29" height="29"> <img src="pages/movelists/files/buttons/plus.png"> <img src="pages/movelists/files/buttons/x.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+			<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/chain.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Chains up to 4 attacks. <br/> Can be used as a chain after <b>Throw</b>, and <b>Launcher</b>.</p></td>
+		</tr>
+		
+	</tbody>
+</table>
+
+<h4>Throws and Grabs:</h4>
+<table class = "movelist_table">
+	<tbody>
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/throw1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Throw</p></td>
+			<td class = "movelist_power_indicator"/>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/x.gif" width="29" height="29"> <img src="pages/movelists/files/buttons/plus.png"> <img src="pages/movelists/files/buttons/y.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+		    <td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Can be performed in close proximity to the opponent. Chains into <b>Destructo Disc</b> or <b>Instantaneous Chain Combo.</b></p></td>
+		</tr>
+	</tbody>
+</table>
+
+<h4>Specials:</h4>
+
+<table class = "movelist_table">
+	<tbody>
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/hbutt-u1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Head Butt Upwards</p></td>
+			<td class = "movelist_power_indicator"/>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dr.gif" width="29" height="29"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+		    <td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">A mid-strength attack that launches the player forward and into the air.</p></td>
+		</tr>
+		
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/hbutt-d1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Head Butt Downwards</p></td>
+			<td class = "movelist_power_indicator"/>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dr.gif" width="29" height="29"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+		    <td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/chain.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">A mid-strength attack that sends the player smashing into the ground. Can be chained from <b>Head Butt Upwards</b></p></td>
+		</tr>
+		
+		
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/flipkick1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Flip Kick</p></td>
+			<td class = "movelist_power_indicator"/>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dr.gif" width="29" height="29"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+		    <td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"><br/><img src="pages/movelists/files/state_type_icons/chain.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">A lunge forward into a versatile flip kick for a quick burst of damage. Can be chained from <b>Head Butt Upwards</b> and <b>Orin Kick Combo (after 3rd kick)</b></p></td>
+		</tr>
+
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/scissor1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Orin Kick Combo</p></td>
+			<td class = "movelist_power_indicator"/>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dr.gif" width="29" height="29"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+		    <td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Slowly rise upwards while delivering a repeated weak kick, followed by a final strong rising kick. Chains into <b>Overhead Smash</b> -or- <b>Flip Kick</b>.</p></td>
+		</tr>
+		
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/osmash1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Overhead Smash</p></td>
+			<td class = "movelist_power_indicator"/>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/chain_arrow.png" width="29" height="29"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+		    <td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/chain.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">A standard follow-up to <b>Orin Kick Combo</b></p></td>
+		</tr>
+		
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/kishot1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Ki Repeater</p></td>
+			<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter.png"></td>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dl.gif" width="29" height="29"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>	
+		</tr>
+		<tr>
+		    <td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">A long-ranged but weak attack.<br/> Tapping punch will launch up to 3 blasts in succession then ends with a powerful Destructo Disc.</p></td>
+		</tr>
+		
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/hddisc1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Destructo Disc</p></td>
+			<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter.png"></td>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/chain_arrow.png" width="29" height="29"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dl.gif" width="29" height="29"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"> -or- <img src="pages/movelists/files/buttons/chain_arrow.png" width="29" height="29"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>	
+		</tr>
+		<tr>
+		    <td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/chain.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">A powerful ranged chain attack. Can be chained from <b>Throw</b> and <b>Ki Repeater</b>. Each chain command is listed respectively.</p></td>
+		</tr>
+		
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/khh1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">KamehameHa Up</p></td>
+			<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter.png"></td>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dl.gif" width="29" height="29"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"></td>	
+		</tr>
+		<tr>
+		    <td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">A strong but expensive anti-air attack. Tapping kick will launch up to 3 KamehameHas in succession.</p></td>
+		</tr>
+		
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/akhh1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">KamehameHa Down</p></td>
+			<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter.png"></td>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dl.gif" width="29" height="29"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"></td>	
+		</tr>
+		<tr>
+		    <td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">A strong but expensive ranged aerial attack. Tapping kick will launch up to 3 KamehameHas in succession.</p></td>
+		</tr>
+		
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/sflare1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Solar Flare</p></td>
+			<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter.png"></td>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/dl.gif" width="29" height="29"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dr.gif" width="29" height="29"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"></td>	
+		</tr>
+		<tr>
+		    <td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">A flash of blinding light stuns the enemy briefly. Uses alot of power. </p></td>
+		</tr>
+		
+		 <tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/flykick1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Orin Repeater</p></td>
+			<td class = "movelist_power_indicator"/>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/y.gif" width="29" height="29"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/plus.png"><img src="pages/movelists/files/buttons/x.gif" width="29" height="29"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/plus.png"><img src="pages/movelists/files/buttons/y.gif" width="29" height="29"><img src="pages/movelists/files/buttons/z.gif" width="29" height="29"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+		    <td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/chain.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">An extended basic combo attack that ends with a powerful kick. The first button signifies the start of what is required to finish the combo, this combo can be preceded by other basic attacks to build an even longer combo!</p></td>
+		</tr>
+	</tbody>
+</table>
+
+<h4>Supers:</h4>
+<table class = "movelist_table">
+	<tbody>
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/2xbeam1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Double Tsuihikidan</p></td>
+			<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter_lvl1.png"></td>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dr.gif" width="29" height="29"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"><img src="pages/movelists/files/buttons/plus.png"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"></td>
+		</td>
+		</tr>
+		<tr>
+		    <td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Krillin creates 2 energy balls that chase his opponent. They can be bounced, deflected by projectiles, and can hit the ground due to their slow turning.</p></td>
+		</tr>
+		
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/hkhh1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Kamehameha</p></td>
+			<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter_lvl1.png"></td>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dl.gif" width="29" height="29"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"><img src="pages/movelists/files/buttons/plus.png"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+		    <td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Fire a power energy wave. Hold Up or Down before firing to project the wave up or down.</b></p></td>
+		</tr>
+		
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/hddisc1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Chain Destructo Disc</p></td>
+			<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter_lvl2.png"></td>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dl.gif" width="29" height="29"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"><img src="pages/movelists/files/buttons/plus.png"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>
+			</tr>
+		<tr>
+		    <td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Krillin throws 3 consecutive energy discs. If 1 is easy to dodge, then surely 3 will be tougher!</p></td>
+		</tr>
+		
+		<tr>
+			<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/krillin_cstrife/preview/hrain1.png" width="133" height="100"></td>
+			<td class = "movelist_name"><p class="movelist_header">Kakusan Kikou Ha</p></td>
+			<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter_lvl3.png"></td>
+		</tr> 
+		<tr>
+			<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"><img src="pages/movelists/files/buttons/plus.png"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>
+			</tr>
+		<tr>
+		    <td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+			<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Krillin launches a slow moving energy ball in the sky, splits it, and rains it on to his opponent. This attack is devastating but easily avoidable.</p></td>
+		</tr>
+
+	</tbody>
+</table>
+<br/>
+			<img src="pages/movelists/files/news-border-image.png" class="border1" width="360px" height="8px">
+			<br>
+			<h4>Fighting Tips:</h4>
+			<table border="0" align="center">
+			<tr>
+				<td width = "540"> <font face="verdana" color="#ccccdd" size=1.5>
+				<b>1.</b> When using the <b>Ki Repeater</b> special attack, continue tapping any 'P' button to chain up to 3 energy blasts and once more for <b>Destructo Disc</b>!<br>
+				<b>2.</b> <b>Instantaneous Chain Combo</b> (Teleport Attacks) can be used:<br>
+				   --after a successful <b>Throw</b>.<br>
+				   --after a successful <b>Launcher</b><br>
+				<b>3.</b> Avoid using power/energy consuming attacks when your power is low to avoid tiring out.<br>
+				<b>4.</b> Escape from Tired/Dizzy faster by tapping P and K buttons rapidly, if you succesfully recover, you will regain a small amount of power.<br>
+				<b>5.</b> Attacks do less damage after each successful hit in a combo. After 10 hits you can only do 20% damage per attack. Supers are not affected by this.<br>
+				<b>6.</b> Use air dash wisely, excessive use causes energy loss. When out of power you may only use a single air dash before landing.<br>
+				<b>7.</b> Use <b>Advance Guard</b> if you are caught blocking in a corner with little chance of escape.<br>
+				<b>8.</b> <b>Recover</b> from certain falling states by pressing PP or KK.<br>
+				<b>9.</b> Press PP to <b>Scatter Shot Retreat</b> while lying down.<br>
+				<b>10.</b> <b>Destructo Disc</b> can be chained after <b>Throw</b> for extra damage at the cost of power.
+			</td>
+			</tr>
+			</table>
+			<br/>
+			<img src="pages/movelists/files/news-border-image.png" class="border1" width="360px" height="8px">
+			<br/>
+			<h4><a name="C5">Credits and Shout Outs:</a></h4>
+			<table border="0" align="center">
+			<tr>
+			<td width = "540">
+			<font face="verdana" color="#ccccdd" size=1.5>
+			<b>Akira Toriyama</b> - Dragon Ball/Z/Kai.</br>
+			<b>Elecbyte</b> - For MUGEN.</br>
+			<b>Bandai</b> - The Super Butouden series.</br>
+			<b>Atari/Dimps</b> - The Budokai and Budokai Tenkaichi games.</br>
+			<b>SNK/NeoGeo</b> - Some Sounds and effects.</br>
+			<b>SquareSoft</b> - The sparkle effect.</br>
+			<b>Mayumi Tanaka</b> - The Japanese voice acting.</br>
+            <b>Sonny Strait</b> - The English voice acting.</br>
+			<b>Aya Hirano</b> - Cha-La Head-Cha-La Karaoke.</br>
+			<b>Cacuke</b> - The particle aura and base code and ideas.</br>
+			<b>ZGT/ZGTKai Team</b> - Inspiration and support.</br>
+			<b>DGZ Team</b> - Inspiration.</br>
+			<b>DBZ 1nfinity Team</b> - Inspiration.</br>
+			<b>Adam @ www.silver-dawn.net</b> - Buttons for the command list.</br>
+			<b>Drifter85m</b> - Scouter fanart used for the scouter sprite(s) in this ReadMe.</br>
+			<b>ZGTeam Forum, RokCorp Forum, Mugen Generations, and Mugen Fighters Guild Forums</b>
+			</br></br>
+			Everyone else that I have missed.</br> E-mail me if I left you out.</br></font>
+			</font>
+			</td>
+			</tr>
+			</table>
+			<img src="pages/movelists/files/news-border-image.png" class="border1" width="100%" height="8px">
+			</td></tr>
+	</table>
+</div>
