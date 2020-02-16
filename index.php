@@ -22,7 +22,7 @@ td.title { border-width: 1px; border-style: solid; text-indent:10px;}
 <?php 
 include('pages/header.html');
 include('pages/navbar.html');
-echo '<div id="main-body" align="center" style="position: relative; width:100%; z-index:1; top:10px">';
+echo '<div id="main-body" align="center" style="position: relative; width:80%; z-index:1; top:10px">';
 
 $page = $_GET['page'];
 $pages = array(
