@@ -61,6 +61,7 @@ $pages = array(
 'movelists/garlicjr2_0',
 'movelists/krillin1',
 'movelists/zangya1',
+'movelists/trunksMv9-2_0',
 'misc/aboutme',
 'misc/minecraft',
 'misc/svencoop',
